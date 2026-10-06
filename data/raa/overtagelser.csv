@@ -1,0 +1,70 @@
+club_id,klub,ejer,dato,andel,ejertype,t0,sikkerhed,note,usa_pe,kilde
+5,AC Milan,Li Yonghong,2017-04,99.9%,"Privat, udenlandsk",2017,høj,,False,https://en.wikipedia.org/wiki/AC_Milan
+5,AC Milan,Elliott Management,2018-07,99.9%,"Privat, udenlandsk",2018,høj, USA/kapitalfond,True,https://en.wikipedia.org/wiki/AC_Milan
+5,AC Milan,RedBird,2022-08,99.9%,"Privat, udenlandsk",2022,høj, USA/kapitalfond,True,https://en.wikipedia.org/wiki/AC_Milan
+11,Arsenal,Stan Kroenke,2011-04,>50%,"Privat, udenlandsk",2011,middel,flertal april 2011 USA/kapitalfond,True,https://en.wikipedia.org/wiki/Arsenal_F.C.
+405,Aston Villa,Randy Lerner,2006-09,>50%,"Privat, udenlandsk",2006,høj, USA/kapitalfond,True,https://en.wikipedia.org/wiki/Aston_Villa_F.C.
+405,Aston Villa,Tony Xia (Recon),2016-06,100%,"Privat, udenlandsk",2016,middel,,False,https://en.wikipedia.org/wiki/Aston_Villa_F.C.
+405,Aston Villa,Sawiris & Edens (NSWE),2018-07,>50%,"Privat, udenlandsk",2018,høj,,False,https://en.wikipedia.org/wiki/Aston_Villa_F.C.
+337,Birmingham,Carson Yeung,2009-10,>50%,"Privat, udenlandsk",2009,høj,,False,https://en.wikipedia.org/wiki/Birmingham_City_F.C.
+337,Birmingham,Knighthead,2023-07,>50%,"Privat, udenlandsk",2023,høj, USA/kapitalfond,True,https://en.wikipedia.org/wiki/Birmingham_City_F.C.
+164,Blackburn,Jack Walker,1991-01,100%,"Privat, indenlandsk",1990,høj,Second Division ved overtagelsen,False,https://en.wikipedia.org/wiki/Jack_Walker
+164,Blackburn,Venky's,2010-11,99.9%,"Privat, udenlandsk",2010,høj,,False,https://en.wikipedia.org/wiki/Blackburn_Rovers_F.C.
+989,Bournemouth,Maxim Demin,2013-01,>50%,"Privat, udenlandsk",2012,middel,50% fra nov 2011,False,https://www.sportbusiness.com/news/russian-businessman-regains-full-ownership-of-bournemouth/
+989,Bournemouth,Bill Foley (Black Knight),2022-12,100%,"Privat, udenlandsk",2022,høj, USA/kapitalfond,True,https://en.wikipedia.org/wiki/AFC_Bournemouth
+1148,Brentford,Matthew Benham,2012-06,>50%,"Privat, indenlandsk",2012,høj,League One,False,https://en.wikipedia.org/wiki/Brentford_F.C.
+1237,Brighton,Tony Bloom,2009-05,>50%,"Privat, indenlandsk",2009,høj,League One,False,https://en.wikipedia.org/wiki/Brighton_%26_Hove_Albion_F.C.
+1132,Burnley,ALK Capital,2020-12,>50%,"Privat, udenlandsk",2020,høj, USA/kapitalfond,True,https://en.wikipedia.org/wiki/Burnley_F.C.
+631,Chelsea,Roman Abramovich,2003-07,>50%,"Privat, udenlandsk",2003,høj,,False,https://www.chelseafc.com/en/the-story-of-chelsea-chapter-eight
+631,Chelsea,Boehly/Clearlake,2022-05,>50%,"Privat, udenlandsk",2022,høj, USA/kapitalfond,True,https://en.wikipedia.org/wiki/Chelsea_F.C.
+22,Derby,GSE (Andy Appleby),2008-01,>50%,"Privat, udenlandsk",2007,middel, USA/kapitalfond,True,https://en.wikipedia.org/wiki/Derby_County_F.C.
+714,Espanyol,Rastar,2016-01,>50%,"Privat, udenlandsk",2015,middel,,False,https://en.wikipedia.org/wiki/RCD_Espanyol
+29,Everton,Farhad Moshiri,2018-09,68.6%,"Privat, udenlandsk",2018,middel,49.9% fra feb 2016 (de facto kontrol),False,https://www.skysports.com/football/news/11495156/farhad-moshiri-becomes-evertons-majority-shareholder-after-increasing-shares
+29,Everton,Friedkin Group,2024-12,>90%,"Privat, udenlandsk",2024,høj,post-periode delvis USA/kapitalfond,True,https://en.wikipedia.org/wiki/Everton_F.C.
+430,Fiorentina,Rocco Commisso,2019-06,100%,"Privat, udenlandsk",2019,høj, USA/kapitalfond,True,https://en.wikipedia.org/wiki/ACF_Fiorentina
+931,Fulham,Mohamed Al-Fayed,1997-05,>50%,"Privat, udenlandsk",1997,høj,tredje række ved overtagelsen,False,https://en.wikipedia.org/wiki/1997%E2%80%9398_Fulham_F.C._season
+931,Fulham,Shahid Khan,2013-07,100%,"Privat, udenlandsk",2013,høj, USA/kapitalfond,True,https://en.wikipedia.org/wiki/Fulham_F.C.
+3008,Hull,Assem Allam,2010-12,>50%,"Privat, indenlandsk",2010,middel,,False,https://en.wikipedia.org/wiki/Hull_City_A.F.C.
+46,Inter,Erick Thohir,2013-11,70%,"Privat, udenlandsk",2013,høj,,False,https://en.wikipedia.org/wiki/Inter_Milan
+46,Inter,Suning,2016-06,68.6%,"Privat, udenlandsk",2016,høj,,False,https://en.wikipedia.org/wiki/Inter_Milan
+46,Inter,Oaktree,2024-05,>90%,"Privat, udenlandsk",2024,høj,post-periode delvis USA/kapitalfond,True,https://en.wikipedia.org/wiki/Inter_Milan
+677,Ipswich,Gamechanger 20 (ORG),2021-04,>50%,"Privat, udenlandsk",2021,høj, USA/kapitalfond,True,https://en.wikipedia.org/wiki/Ipswich_Town_F.C.
+399,Leeds,Massimo Cellino,2014-04,75%,"Privat, udenlandsk",2013,middel,overtog i slutsæsonen 2013/14,False,https://en.wikipedia.org/wiki/Leeds_United_F.C.
+399,Leeds,Andrea Radrizzani,2017-05,100%,"Privat, udenlandsk",2017,høj,,False,https://en.wikipedia.org/wiki/Leeds_United_F.C.
+399,Leeds,49ers Enterprises,2023-07,100%,"Privat, udenlandsk",2023,høj, USA/kapitalfond,True,https://en.wikipedia.org/wiki/Leeds_United_F.C.
+1003,Leicester,King Power,2010-08,>50%,"Privat, udenlandsk",2010,høj,,False,https://en.wikipedia.org/wiki/Leicester_City_F.C.
+31,Liverpool,Hicks & Gillett,2007-02,100%,"Privat, udenlandsk",2007,høj, USA/kapitalfond,True,https://en.wikipedia.org/wiki/Liverpool_F.C.
+31,Liverpool,Fenway Sports Group,2010-10,100%,"Privat, udenlandsk",2010,høj, USA/kapitalfond,True,https://en.wikipedia.org/wiki/Liverpool_F.C.
+1041,Lyon,John Textor (Eagle),2022-12,77.5%,"Privat, udenlandsk",2022,høj, USA/kapitalfond,True,https://en.wikipedia.org/wiki/Olympique_Lyonnais
+281,Manchester City,ADUG (Sheikh Mansour),2008-09,100%,Stat,2008,høj,Abu Dhabi; t-1 er Shinawatra-sæsonen,False,https://www.itv.com/news/granada/2026-09-25/who-is-manchester-citys-owner-sheikh-mansour
+985,Manchester United,Glazer-familien,2005-05,>50%,"Privat, udenlandsk",2005,høj,gældsfinansieret opkøb USA/kapitalfond,True,https://en.wikipedia.org/wiki/Manchester_United_F.C.
+244,Marseille,Frank McCourt,2016-10,100%,"Privat, udenlandsk",2016,høj, USA/kapitalfond,True,https://en.wikipedia.org/wiki/Olympique_de_Marseille
+641,Middlesbrough,Steve Gibson,1993-06,ca. 90%,"Privat, indenlandsk",1993,middel,"købte S&N-aktierne 1993, formand 1994",False,https://en.wikipedia.org/wiki/Steve_Gibson_(businessman)
+162,Monaco,Dmitrij Rybolovlev,2011-12,66.7%,"Privat, udenlandsk",2011,høj,Ligue 2,False,https://en.wikipedia.org/wiki/AS_Monaco_FC
+1084,Málaga,Abdullah Al Thani,2010-06,>50%,"Privat, udenlandsk",2010,middel,privatperson,False,https://en.wikipedia.org/wiki/M%C3%A1laga_CF
+762,Newcastle,Sir John Hall,1991-11,>50%,"Privat, indenlandsk",1991,middel,kontrol ca. nov. 1991 til feb. 1992,False,https://en.wikipedia.org/wiki/1991%E2%80%9392_Newcastle_United_F.C._season
+762,Newcastle,Mike Ashley,2007-05,>50%,"Privat, indenlandsk",2007,høj,,False,https://en.wikipedia.org/wiki/Newcastle_United_F.C.
+762,Newcastle,PIF-konsortiet,2021-10,80%,Stat,2021,høj,Saudi-Arabien,False,https://www.aljazeera.com/news/2021/10/7/saudi-arabia-led-consortium-completes-newcastle-united-takeover
+703,Nottingham Forest,Fawaz Al-Hasawi,2012-07,>50%,"Privat, udenlandsk",2012,middel,,False,https://en.wikipedia.org/wiki/Nottingham_Forest_F.C.
+703,Nottingham Forest,Evangelos Marinakis,2017-05,>50%,"Privat, udenlandsk",2017,høj,,False,https://en.wikipedia.org/wiki/Nottingham_Forest_F.C.
+583,Paris Saint-Germain,QSI,2011-06,70% (100% 2012),Stat,2011,høj,Qatar,False,https://www.tandfonline.com/doi/full/10.1080/14660970.2024.2446970
+1020,Portsmouth,Alexandre Gaydamak,2006-01,>50% (100% medio 2006),"Privat, udenlandsk",2005,middel,,False,https://en.wikipedia.org/wiki/Portsmouth_F.C.
+1039,QPR,Briatore & Ecclestone,2007-09,>50%,"Privat, udenlandsk",2007,middel,,False,https://en.wikipedia.org/wiki/Queens_Park_Rangers_F.C.
+1039,QPR,Tony Fernandes,2011-08,66%,"Privat, udenlandsk",2011,høj,,False,https://en.wikipedia.org/wiki/Queens_Park_Rangers_F.C.
+1032,Reading,Dai Yongge,2017-05,>50%,"Privat, udenlandsk",2017,høj,,False,https://en.wikipedia.org/wiki/Reading_F.C.
+12,Roma,Pallotta/DiBenedetto,2011-08,>50%,"Privat, udenlandsk",2011,middel, USA/kapitalfond,True,https://en.wikipedia.org/wiki/AS_Roma
+12,Roma,Friedkin Group,2020-08,86.6%,"Privat, udenlandsk",2020,høj, USA/kapitalfond,True,https://en.wikipedia.org/wiki/AS_Roma
+350,Sheffield United,Prins Abdullah,2019-09,100%,"Privat, udenlandsk",2019,middel,fuld kontrol efter retssag,False,https://en.wikipedia.org/wiki/Sheffield_United_F.C.
+180,Southampton,Markus Liebherr,2009-07,100%,"Privat, udenlandsk",2009,høj,League One,False,https://en.wikipedia.org/wiki/Southampton_F.C.
+180,Southampton,Gao Jisheng,2017-08,80%,"Privat, udenlandsk",2017,høj,,False,https://en.wikipedia.org/wiki/Southampton_F.C.
+180,Southampton,Sport Republic,2022-01,80%,"Privat, udenlandsk",2021,høj,,False,https://en.wikipedia.org/wiki/Southampton_F.C.
+512,Stoke,Peter Coates,2006-05,>50%,"Privat, indenlandsk",2006,middel,,False,https://en.wikipedia.org/wiki/Stoke_City_F.C.
+289,Sunderland,Ellis Short,2009-05,>50%,"Privat, udenlandsk",2009,middel, USA/kapitalfond,True,https://en.wikipedia.org/wiki/Sunderland_A.F.C.
+289,Sunderland,Stewart Donald,2018-05,>50%,"Privat, indenlandsk",2018,høj,,False,https://en.wikipedia.org/wiki/Sunderland_A.F.C.
+289,Sunderland,Kyril Louis-Dreyfus,2022-06,51%,"Privat, udenlandsk",2022,høj,41% fra feb 2021,False,https://en.wikipedia.org/wiki/Kyril_Louis-Dreyfus
+2288,Swansea,Levien & Kaplan,2016-07,>50%,"Privat, udenlandsk",2016,høj, USA/kapitalfond,True,https://en.wikipedia.org/wiki/Swansea_City_A.F.C.
+1049,Valencia,Peter Lim (Meriton),2014-10,70%,"Privat, udenlandsk",2014,høj,,False,https://en.wikipedia.org/wiki/Valencia_CF
+1010,Watford,Pozzo-familien,2012-06,>50%,"Privat, udenlandsk",2012,høj,,False,https://en.wikipedia.org/wiki/Watford_F.C.
+984,West Bromwich,Guochuan Lai,2016-09,88%,"Privat, udenlandsk",2016,høj,,False,https://en.wikipedia.org/wiki/West_Bromwich_Albion_F.C.
+379,West Ham,Björgólfur Guðmundsson,2006-11,>50%,"Privat, udenlandsk",2006,middel,,False,https://www.theguardian.com/football/2006/nov/29/sport.comment
+543,Wolverhampton,Fosun,2016-07,100%,"Privat, udenlandsk",2016,høj,,False,https://en.wikipedia.org/wiki/Wolverhampton_Wanderers_F.C.

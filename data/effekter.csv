@@ -1,0 +1,69 @@
+﻿Rang,Klub,Første sæson med ny ejer,Ny ejer,Ejertype,Regelperiode,Liga sæsonen før,Niveau før (gns. 3 sæsoner),Ændring for klubben,Ændring for kontrolklubber,Antal kontrolklubber,Effekt (point),Effekt i første sæson (point),Sæsoner over ligasnit af de første fem,PL-placering før (gns. 3 sæsoner),PL-placering efter (gns. sæson 2-4),Placebo-andel
+1,Paris Saint-Germain,2011/12,QSI,Stat,UEFA FFP (2011-12),Ligue 1,11.5,778.0,-58.9,18,836.9,806.6,5/5,,,0.05
+2,Chelsea,2003/04,Roman Abramovich,"Privat, udenlandsk",Før regler (til 2010),Premier League / First Division,7.8,490.3,-32.0,18,522.2,797.1,4/5,5.3,1.3,0.05
+3,Monaco,2011/12,Dmitrij Rybolovlev,"Privat, udenlandsk",UEFA FFP (2011-12),Ligue 1,-45.2,337.9,-58.9,18,396.8,93.8,2/5,,,0.05
+4,Manchester City,2008/09,ADUG (Sheikh Mansour),Stat,Før regler (til 2010),Premier League / First Division,-27.5,364.1,-9.7,9,373.8,300.8,4/5,12.7,3.0,0.1
+5,Blackburn,1990/91,Jack Walker,"Privat, indenlandsk",Før regler (til 2010),Championship / Second Division,-26.6,199.2,-9.1,23,208.4,121.5,5/5,,3.0,0.04
+6,Inter,2024/25,Oaktree,"Privat, udenlandsk",FFP og PSR (fra 2013),Serie A,-130.1,189.8,-17.3,15,207.1,201.8,3/3,,,0.06
+7,Newcastle,1991/92,Sir John Hall,"Privat, indenlandsk",Før regler (til 2010),Premier League / First Division,-114.5,165.4,-21.7,13,187.1,131.6,3/4,,4.5,0.07
+8,Lyon,2022/23,John Textor (Eagle),"Privat, udenlandsk",FFP og PSR (fra 2013),Ligue 1,-154.0,145.6,-19.1,14,164.8,52.5,2/5,,,0.07
+9,Chelsea,2022/23,Boehly/Clearlake,"Privat, udenlandsk",FFP og PSR (fra 2013),Premier League / First Division,-30.4,141.0,-9.8,14,150.7,338.1,2/5,3.7,6.7,0.07
+10,Inter,2016/17,Suning,"Privat, udenlandsk",FFP og PSR (fra 2013),Serie A,30.7,107.1,-17.8,14,124.9,300.4,4/5,,,0.07
+11,AC Milan,2017/18,Li Yonghong,"Privat, udenlandsk",FFP og PSR (fra 2013),Serie A,61.9,94.8,-18.1,13,113.0,227.8,4/5,,,0.07
+12,Roma,2020/21,Friedkin Group,"Privat, udenlandsk",FFP og PSR (fra 2013),Serie A,-58.3,101.5,-11.1,13,112.6,99.0,3/5,,,0.07
+13,Newcastle,2021/22,PIF-konsortiet,Stat,FFP og PSR (fra 2013),Premier League / First Division,-29.1,89.7,-4.1,12,93.8,122.1,4/5,12.7,5.3,0.08
+14,Inter,2013/14,Erick Thohir,"Privat, udenlandsk",FFP og PSR (fra 2013),Serie A,-50.9,81.6,-6.6,14,88.1,231.3,3/5,,,0.07
+15,Roma,2011/12,Pallotta/DiBenedetto,"Privat, udenlandsk",UEFA FFP (2011-12),Serie A,-25.6,65.7,-16.3,14,82.0,231.2,3/5,,,0.07
+16,Fulham,2013/14,Shahid Khan,"Privat, udenlandsk",FFP og PSR (fra 2013),Premier League / First Division,-54.7,54.2,-11.7,16,65.9,66.8,3/5,9.7,,0.06
+17,Aston Villa,2018/19,Sawiris & Edens (NSWE),"Privat, udenlandsk",FFP og PSR (fra 2013),Championship / Second Division,-5.1,66.3,0.9,17,65.4,13.9,3/5,20.0,14.0,0.06
+18,Bournemouth,2022/23,Bill Foley (Black Knight),"Privat, udenlandsk",FFP og PSR (fra 2013),Championship / Second Division,-44.9,62.0,-1.6,21,63.6,37.9,2/5,18.0,9.0,0.05
+19,Aston Villa,2016/17,Tony Xia (Recon),"Privat, udenlandsk",FFP og PSR (fra 2013),Premier League / First Division,-35.6,50.2,-8.9,14,59.1,84.8,4/5,17.3,17.0,0.07
+20,Valencia,2014/15,Peter Lim (Meriton),"Privat, udenlandsk",FFP og PSR (fra 2013),LaLiga,-54.2,41.2,-8.4,14,49.6,68.3,4/5,,,0.27
+21,Southampton,2017/18,Gao Jisheng,"Privat, udenlandsk",FFP og PSR (fra 2013),Premier League / First Division,-66.5,31.5,-14.8,15,46.3,2.4,0/5,7.0,14.0,0.12
+22,Middlesbrough,1993/94,Steve Gibson,"Privat, indenlandsk",Før regler (til 2010),Premier League / First Division,-0.5,31.3,-10.7,16,42.1,-27.5,3/5,21.0,15.5,0.24
+23,Wolverhampton,2016/17,Fosun,"Privat, udenlandsk",FFP og PSR (fra 2013),Championship / Second Division,-3.5,38.4,-2.3,19,40.7,46.3,4/5,,7.0,0.05
+24,Everton,2024/25,Friedkin Group,"Privat, udenlandsk",FFP og PSR (fra 2013),Premier League / First Division,-71.4,40.7,0.8,15,39.9,10.9,1/3,16.0,13.0,0.19
+25,Marseille,2016/17,Frank McCourt,"Privat, udenlandsk",FFP og PSR (fra 2013),Ligue 1,15.9,25.7,-9.2,14,34.9,-170.8,3/5,,,0.27
+26,Aston Villa,2006/07,Randy Lerner,"Privat, udenlandsk",Før regler (til 2010),Premier League / First Division,-24.5,45.0,13.1,12,31.9,36.0,3/5,10.7,6.0,0.38
+27,Liverpool,2010/11,Fenway Sports Group,"Privat, udenlandsk",Før regler (til 2010),Premier League / First Division,12.9,37.4,5.7,13,31.8,-83.6,3/5,4.3,5.7,0.36
+28,Málaga,2010/11,Abdullah Al Thani,"Privat, udenlandsk",Før regler (til 2010),LaLiga,-23.6,13.1,-15.9,15,28.9,200.6,2/5,,,0.44
+29,AC Milan,2022/23,RedBird,"Privat, udenlandsk",FFP og PSR (fra 2013),Serie A,75.2,22.3,-4.9,11,27.2,27.7,4/5,,,0.17
+30,West Ham,2006/07,Björgólfur Guðmundsson,"Privat, udenlandsk",Før regler (til 2010),Premier League / First Division,-47.9,40.2,13.1,12,27.1,214.5,1/5,9.0,12.0,0.38
+31,Blackburn,2010/11,Venky's,"Privat, udenlandsk",Før regler (til 2010),Premier League / First Division,-70.1,31.8,5.7,13,26.1,28.0,2/5,10.7,19.0,0.36
+32,Espanyol,2015/16,Rastar,"Privat, udenlandsk",FFP og PSR (fra 2013),LaLiga,-20.9,18.2,-5.7,13,23.8,-23.4,2/5,,,0.5
+33,Leicester,2010/11,King Power,"Privat, udenlandsk",Før regler (til 2010),Championship / Second Division,9.4,15.7,-4.6,17,20.4,2.0,4/5,,,0.17
+34,West Bromwich,2016/17,Guochuan Lai,"Privat, udenlandsk",FFP og PSR (fra 2013),Premier League / First Division,-22.6,11.3,-8.9,14,20.1,-10.1,1/5,14.7,20.0,0.27
+35,Everton,2018/19,Farhad Moshiri,"Privat, udenlandsk",FFP og PSR (fra 2013),Premier League / First Division,4.1,3.5,-15.2,15,18.7,27.8,2/5,8.7,12.7,0.44
+36,QPR,2011/12,Tony Fernandes,"Privat, udenlandsk",UEFA FFP (2011-12),Championship / Second Division,11.7,22.2,5.6,18,16.6,18.6,3/5,,20.0,0.21
+37,Reading,2017/18,Dai Yongge,"Privat, udenlandsk",FFP og PSR (fra 2013),Championship / Second Division,-4.9,17.1,1.4,19,15.6,13.0,4/5,,,0.15
+38,Nottingham Forest,2017/18,Evangelos Marinakis,"Privat, udenlandsk",FFP og PSR (fra 2013),Championship / Second Division,-9.5,15.5,1.4,19,14.1,-1.6,3/5,,,0.2
+39,Birmingham,2023/24,Knighthead,"Privat, udenlandsk",FFP og PSR (fra 2013),Championship / Second Division,-2.5,14.4,2.5,16,11.9,12.3,3/3,,,0.18
+40,Brighton,2009/10,Tony Bloom,"Privat, indenlandsk",Før regler (til 2010),League One,-0.5,9.9,0.1,14,9.9,4.3,4/5,,,0.07
+41,Burnley,2020/21,ALK Capital,"Privat, udenlandsk",FFP og PSR (fra 2013),Premier League / First Division,-41.2,-2.6,-11.2,12,8.6,-9.2,1/5,10.7,18.5,0.54
+42,Watford,2012/13,Pozzo-familien,"Privat, udenlandsk",UEFA FFP (2011-12),Championship / Second Division,-8.1,9.9,1.8,15,8.1,-1.1,2/5,,13.0,0.25
+43,Bournemouth,2012/13,Maxim Demin,"Privat, udenlandsk",UEFA FFP (2011-12),League One,-2.1,8.5,0.7,15,7.8,5.8,4/5,,16.0,0.06
+44,Birmingham,2009/10,Carson Yeung,"Privat, udenlandsk",Før regler (til 2010),Championship / Second Division,-19.3,12.0,4.5,20,7.5,61.8,2/5,19.0,18.0,0.24
+45,Stoke,2006/07,Peter Coates,"Privat, indenlandsk",Før regler (til 2010),Championship / Second Division,8.1,8.8,1.4,21,7.4,1.2,4/5,,11.5,0.27
+46,Swansea,2016/17,Levien & Kaplan,"Privat, udenlandsk",FFP og PSR (fra 2013),Premier League / First Division,-41.0,-2.2,-8.9,14,6.7,5.8,0/5,10.7,18.0,0.33
+47,Arsenal,2011/12,Stan Kroenke,"Privat, udenlandsk",UEFA FFP (2011-12),Premier League / First Division,-49.3,7.1,0.5,13,6.6,-23.5,2/5,3.7,3.7,0.36
+48,Ipswich,2021/22,Gamechanger 20 (ORG),"Privat, udenlandsk",FFP og PSR (fra 2013),League One,-0.3,5.7,0.2,15,5.5,1.3,4/5,,19.0,0.12
+49,Sunderland,2022/23,Kyril Louis-Dreyfus,"Privat, udenlandsk",FFP og PSR (fra 2013),League One,0.4,6.1,0.7,13,5.5,7.4,4/5,,7.0,0.07
+50,Southampton,2009/10,Markus Liebherr,"Privat, udenlandsk",Før regler (til 2010),Championship / Second Division,-12.1,9.1,4.5,20,4.6,-3.3,3/5,,14.0,0.33
+51,Sunderland,2018/19,Stewart Donald,"Privat, indenlandsk",FFP og PSR (fra 2013),Championship / Second Division,-10.8,2.9,0.9,17,2.1,-13.7,3/5,18.5,,0.5
+52,Portsmouth,2005/06,Alexandre Gaydamak,"Privat, udenlandsk",Før regler (til 2010),Premier League / First Division,-12.6,3.3,3.6,13,-0.4,-6.2,1/5,14.5,10.3,0.43
+53,Brentford,2012/13,Matthew Benham,"Privat, indenlandsk",UEFA FFP (2011-12),League One,2.8,0.1,0.7,15,-0.6,-0.7,3/5,,,0.62
+54,Sheffield United,2019/20,Prins Abdullah,"Privat, udenlandsk",FFP og PSR (fra 2013),Championship / Second Division,0.5,2.0,2.8,16,-0.8,29.5,3/5,,20.0,0.71
+55,Leeds,2013/14,Massimo Cellino,"Privat, udenlandsk",FFP og PSR (fra 2013),Championship / Second Division,-1.4,3.4,5.1,18,-1.7,2.8,4/5,,,0.47
+56,QPR,2007/08,Briatore & Ecclestone,"Privat, udenlandsk",Før regler (til 2010),Championship / Second Division,6.4,5.6,7.4,17,-1.8,8.4,5/5,,,0.56
+57,Leeds,2017/18,Andrea Radrizzani,"Privat, udenlandsk",FFP og PSR (fra 2013),Championship / Second Division,-0.3,-1.8,1.4,19,-3.2,8.1,4/5,,9.0,0.7
+58,Hull,2010/11,Assem Allam,"Privat, indenlandsk",Før regler (til 2010),Premier League / First Division,9.2,-0.0,5.7,13,-5.7,-23.5,4/5,18.0,16.0,0.43
+59,Liverpool,2007/08,Hicks & Gillett,"Privat, udenlandsk",Før regler (til 2010),Premier League / First Division,46.3,-33.5,-26.5,13,-7.0,22.1,3/5,3.7,5.0,0.86
+60,Southampton,2021/22,Sport Republic,"Privat, udenlandsk",FFP og PSR (fra 2013),Premier League / First Division,-30.2,-11.3,-4.1,12,-7.2,-34.5,2/5,14.0,20.0,0.69
+61,Nottingham Forest,2012/13,Fawaz Al-Hasawi,"Privat, udenlandsk",UEFA FFP (2011-12),Championship / Second Division,15.1,-6.7,1.8,15,-8.5,-5.8,3/5,,,0.75
+62,Fiorentina,2019/20,Rocco Commisso,"Privat, udenlandsk",FFP og PSR (fra 2013),Serie A,-26.6,-11.2,4.6,11,-15.8,46.9,1/5,,,0.58
+63,Derby,2007/08,GSE (Andy Appleby),"Privat, udenlandsk",Før regler (til 2010),Championship / Second Division,7.3,-11.3,7.4,17,-18.7,-26.3,3/5,,,1.0
+64,Newcastle,2007/08,Mike Ashley,"Privat, indenlandsk",Før regler (til 2010),Premier League / First Division,9.1,-57.5,-26.5,13,-31.0,-21.1,1/5,11.3,15.0,0.86
+65,Leeds,2023/24,49ers Enterprises,"Privat, udenlandsk",FFP og PSR (fra 2013),Premier League / First Division,22.0,-42.3,3.9,14,-46.1,-9.5,2/4,15.0,14.0,1.0
+66,Sunderland,2009/10,Ellis Short,"Privat, udenlandsk",Før regler (til 2010),Premier League / First Division,38.9,-63.9,-15.3,10,-48.6,48.0,2/5,15.5,13.3,0.82
+67,Manchester United,2005/06,Glazer-familien,"Privat, udenlandsk",Før regler (til 2010),Premier League / First Division,100.1,-67.1,3.6,13,-70.8,-50.8,3/5,2.3,1.0,1.0
+68,AC Milan,2018/19,Elliott Management,"Privat, udenlandsk",FFP og PSR (fra 2013),Serie A,166.5,-114.7,-3.4,12,-111.3,-43.9,4/5,,,1.0
