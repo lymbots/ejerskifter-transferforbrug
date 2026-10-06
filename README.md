@@ -20,7 +20,7 @@ Køb, salg og placeringer er hentet fra Transfermarkt.com den 5. og 6. oktober 2
 4. `kode/grafer2.py` tegner figur 1-7.
 5. `kode/byg_datasaet.py` bygger datasættet.
 
-Python 3 med pandas, numpy, matplotlib og openpyxl.
+Python 3 med pandas, numpy, matplotlib og openpyxl. Graferne bruger skrifttypen Inter fra Google Fonts. Læg filerne Inter-400.ttf, Inter-600.ttf og Inter-800.ttf i en mappe `fonts/` ved siden af koden for at få samme udseende som i artiklen. Ellers bruges matplotlibs standardskrift.
 
 ## Brug
 

@@ -6,14 +6,17 @@ import matplotlib as mpl
 import matplotlib.pyplot as plt
 from matplotlib import font_manager as fm
 
-for f in ['fonts/Inter-400.ttf', 'fonts/Inter-600.ttf', 'fonts/Inter-800.ttf']:
+# Skrifttypen Inter (Google Fonts) lægges i en mappe fonts/. Uden den bruges matplotlibs standardskrift.
+import os
+FONTS = [f for f in ['fonts/Inter-400.ttf', 'fonts/Inter-600.ttf', 'fonts/Inter-800.ttf'] if os.path.exists(f)]
+for f in FONTS:
     fm.fontManager.addfont(f)
 BG, INK, MUTED, GRID, GREY = '#FAF9F6', '#16181D', '#6B6F76', '#E4E2DC', '#BDBAB3'
 COL = {'City': '#1F4E79', 'PSG': '#C8553D', 'Newcastle': '#2E7D6B', 'Chelsea': '#D99A2B', 'Blackburn': '#7A5C99'}
 TYPE = {'Stat': '#1F4E79', 'Privat, udenlandsk': '#D99A2B', 'Privat, indenlandsk': '#2E7D6B'}
 ENHED = 'Pct. af en gennemsnitsklubs indkøb'
 KILDE = 'Kilde: Egne beregninger på baggrund af Transfermarkt, dataudtræk 5.–6. oktober 2026.'
-mpl.rcParams.update({'font.family': 'Inter', 'font.size': 10.5, 'text.color': INK, 'axes.labelcolor': MUTED,
+mpl.rcParams.update({'font.family': 'Inter' if FONTS else 'DejaVu Sans', 'font.size': 10.5, 'text.color': INK, 'axes.labelcolor': MUTED,
                      'xtick.color': MUTED, 'ytick.color': MUTED, 'axes.edgecolor': GRID, 'axes.facecolor': BG,
                      'figure.facecolor': BG, 'savefig.facecolor': BG, 'axes.spines.top': False, 'axes.spines.right': False,
                      'axes.spines.left': False, 'axes.grid': True, 'grid.color': GRID, 'grid.linewidth': 0.8,
