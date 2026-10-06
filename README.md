@@ -1,6 +1,6 @@
 # Ejerskifter og transferforbrug i fodbold, 1987-2026
 
-Data og kode til analysen *Køber nye ejere sig til succes? Effekten af ejerskifter på transfermarkedet i engelsk fodbold* af Asger Krogh (oktober 2026), asgerkrogh.substack.com.
+Data og kode til analysen *Køber nye ejere sig til succes? Effekten af ejerskifter på transfermarkedet i engelsk fodbold* af Asger Krogh (oktober 2026): https://asgerkrogh.substack.com/p/kber-nye-ejere-sig-til-succes-effekten
 
 ## Data
 
