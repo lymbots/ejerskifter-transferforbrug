@@ -12,6 +12,10 @@ Data og kode til analysen *Køber nye ejere sig til succes? Effekten af ejerskif
 
 Køb, salg og placeringer er hentet fra Transfermarkt.com den 5. og 6. oktober 2026. Beløbene er Transfermarkts estimater i euro.
 
+## Figurer
+
+`grafer/` indeholder figur 1-7, som de står i artiklen.
+
 ## Kode
 
 1. `kode/hent_tm.js` køres i browserens konsol på transfermarkt.com.

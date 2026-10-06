@@ -14,7 +14,7 @@ for f in FONTS:
 BG, INK, MUTED, GRID, GREY = '#FAF9F6', '#16181D', '#6B6F76', '#E4E2DC', '#BDBAB3'
 COL = {'City': '#1F4E79', 'PSG': '#C8553D', 'Newcastle': '#2E7D6B', 'Chelsea': '#D99A2B', 'Blackburn': '#7A5C99'}
 TYPE = {'Stat': '#1F4E79', 'Privat, udenlandsk': '#D99A2B', 'Privat, indenlandsk': '#2E7D6B'}
-ENHED = 'Pct. af en gennemsnitsklubs indkøb'
+ENHED = 'Point (100 = én gennemsnitlig klubs årlige indkøb)'
 KILDE = 'Kilde: Egne beregninger på baggrund af Transfermarkt, dataudtræk 5.–6. oktober 2026.'
 mpl.rcParams.update({'font.family': 'Inter' if FONTS else 'DejaVu Sans', 'font.size': 10.5, 'text.color': INK, 'axes.labelcolor': MUTED,
                      'xtick.color': MUTED, 'ytick.color': MUTED, 'axes.edgecolor': GRID, 'axes.facecolor': BG,
@@ -64,14 +64,14 @@ for lab, key, txt in [('Manchester City 2008', 'City', 'Man. City 2008'), ('Chel
 ax.axvline(-0.5, color=INK, lw=.8, ls=(0, (3, 3))); ax.axhline(0, color=INK, lw=.8)
 ax.set_xticks(range(-4, 6), KLAB); ax.set_xlim(-4.3, 5.1)
 ax.set_xlabel('Sæson i forhold til ejerskiftet (Ny ejer = første sæson med ny ejer)')
-ax.set_ylabel('Pct. af gns. klubs indkøb,\nud over kontrolklubberne')
+ax.set_ylabel('Point over kontrolklubberne\n(100 = én gns. klubs årlige indkøb)')
 header(fig, 1, 'Rigmandsovertagelserne gav et spring med det samme',
        'Nettotransferforbrug før og efter ejerskiftet, målt mod klubber i samme liga uden ejerskifte.\nGråt bånd: 95 %-interval for gennemsnittet af 68 overtagelser.')
 footer(fig, 'Blackburn: Jack Walker overtog i januar 1991, sæson 1990/91.')
 save(fig, 'figur1_spring')
 
 # ---------- Figur 2: Citys forløb ----------
-yrs = list(range(1998, 2017))
+yrs = list(range(2002, 2017))
 c = Y.loc[281, yrs]
 era = ['#BDBAB3' if s < 2007 else ('#D99A2B' if s == 2007 else COL['City']) for s in yrs]
 fig = plt.figure(figsize=(W, 5.0))
@@ -79,14 +79,14 @@ ax = fig.add_axes([0.11, 0.15, 0.85, 0.58])
 ax.bar(yrs, c, color=era, width=0.72)
 ax.axhline(0, color=INK, lw=.8)
 for s in [2007, 2008, 2009, 2010]:
-    ax.text(s, c[s] + 8, f'{NET.at[281, s]:.0f} mio.', ha='center', fontsize=7.6, color=INK)
-ax.text(2002, 330, 'Før 2007: under eller\nomkring ligasnittet', fontsize=8.5, color=MUTED)
+    ax.text(s, c[s] + 8, f'{NET.at[281, s]:.0f} mio.', ha='center', fontsize=7.2, color=INK)
+ax.text(2002.6, 330, 'Før 2007: under eller\nomkring ligasnittet', fontsize=8.5, color=MUTED)
 ax.text(2006.6, 140, 'Shinawatra\n2007', fontsize=8.5, color='#B07A16', ha='right', weight=600)
 ax.text(2011.3, 330, 'Sheikh Mansour (ADUG)\nfra 1. september 2008', fontsize=8.5, color=COL['City'], weight=700)
 ax.set_xticks(yrs[::2], [f"{y % 100:02d}/{(y + 1) % 100:02d}" for y in yrs[::2]], fontsize=8.5)
-ax.set_ylabel('Pct. af gns. klubs indkøb,\nud over ligasnittet')
+ax.set_ylabel('Point over Premier League-snittet\n(100 = én gns. klubs årlige indkøb)')
 header(fig, 2, 'City var allerede begyndt at bruge penge, da Mansour kom',
-       "Manchester Citys nettotransferforbrug pr. sæson i forhold til gennemsnittet i den liga, City spillede i.\nTal over søjlerne: nettoforbrug i mio. euro.")
+       "Manchester Citys nettotransferforbrug pr. sæson i forhold til gennemsnittet i Premier League.\nBeløbene viser Citys nettoforbrug i mio. euro under Shinawatra og i Mansours første tre sæsoner.")
 footer(fig)
 save(fig, 'figur2_city_forloeb')
 
@@ -107,9 +107,9 @@ for i, (cid, t0, key, nm, sub) in enumerate(cases):
     ax.text(0, 1.03, sub, transform=ax.transAxes, fontsize=7.6, color=MUTED)
     e3 = sum(NET.at[cid, t0 + k] for k in range(3))
     ax.text(0.98, 0.93, f'Netto første 3 sæsoner:\n{e3:.0f} mio. euro', transform=ax.transAxes, ha='right', va='top', fontsize=7.8)
-fig.text(0.035, 0.065, 'Lodret akse: pct. af en gennemsnitlig klubs indkøb, ud over ligasnittet', fontsize=8.5, color=MUTED)
+fig.text(0.035, 0.065, 'Lodret akse: point over ligasnittet (100 = én gennemsnitlig klubs årlige indkøb i landets bedste række)', fontsize=8.5, color=MUTED)
 header(fig, 3, 'Tre statsovertagelser: City og PSG blev ved, Newcastle bremsede',
-       'Nettotransferforbrug pr. sæson i forhold til ligasnittet, fra tre sæsoner før til fem efter.\nPSG måles mod Ligue 1, der bruger langt færre penge end Premier League.')
+       'Nettotransferforbrug pr. sæson i forhold til ligasnittet, fra tre sæsoner før til fem efter.\nPSG måles mod Ligue 1, der er et langt mindre marked end Premier League.')
 footer(fig)
 save(fig, 'figur3_statsovertagelser')
 
@@ -117,21 +117,24 @@ save(fig, 'figur3_statsovertagelser')
 fig = plt.figure(figsize=(W, 5.4))
 ax = fig.add_axes([0.09, 0.14, 0.86, 0.60])
 ax.axvspan(2010.5, 2012.5, color='#ECEAE4', lw=0); ax.axvspan(2012.5, 2026, color='#E4E1D9', lw=0)
-for x, t in [(1991, 'Ingen regler'), (2010.6, 'UEFA FFP'), (2013, 'FFP + Premier Leagues egne regler (PSR)')]:
-    ax.text(x, 0.97 if x != 2010.6 else 0.52, t, transform=ax.get_xaxis_transform(), fontsize=8, color=MUTED, va='top' if x != 2010.6 else 'bottom', rotation=0 if x != 2010.6 else 90)
+for x, t in [(1991, 'Ingen regler'), (2011.5, 'UEFA\nFFP'), (2013, 'FFP + Premier Leagues egne regler (PSR)')]:
+    ax.text(x, 0.80 if x == 2011.5 else 0.97, t, transform=ax.get_xaxis_transform(), fontsize=7.5 if x == 2011.5 else 8, color=MUTED,
+            va='top', ha='center' if x == 2011.5 else 'left', rotation=0)
 for (a, b), x in zip([(1985, 2010.5), (2010.5, 2012.5), (2012.5, 2026)], [res[res.t0 <= 2010], res[(res.t0 > 2010) & (res.t0 <= 2012)], res[res.t0 > 2012]]):
     ax.plot([a + .3, b - .3], [x.effekt.mean()] * 2, color=INK, lw=1.6)
+    ax.text(b - .4 if b < 2020 else 2025.4, x.effekt.mean() + 14, f'Gns. {x.effekt.mean():.0f}', fontsize=7.8, weight=700, ha='right', color=INK)
 ax.scatter(res.t0, res.effekt, s=36, color=[TYPE[t] for t in res.ejertype], ec=BG, lw=.6, zorder=3)
 lab = {'Manchester City 2008': 'Man. City', 'Paris Saint-Germain 2011': 'PSG', 'Chelsea 2003': 'Chelsea', 'Monaco 2011': 'Monaco',
        'Newcastle 2021': 'Newcastle', 'Blackburn 1990': 'Blackburn', 'Chelsea 2022': 'Chelsea 2022', 'Inter 2024': 'Inter'}
 for r in res[res.label.isin(lab)].itertuples():
     ax.annotate(lab[r.label], (r.t0, r.effekt), xytext=(-62, -4) if 'City' in r.label else (6, 4), textcoords='offset points', fontsize=8.3, weight=700 if 'City' in r.label else 400)
-ax.axhline(0, color=INK, lw=.8); ax.set_xlim(1989, 2025.5)
-ax.set_ylabel('Effekt, ' + ENHED.lower()); ax.set_xlabel('Sæson for ejerskiftet')
-for i, (t, cl) in enumerate(TYPE.items()):
-    fig.text(0.09 + i * 0.2, 0.765, '— ' + t, color=cl, fontsize=8.5, weight=600)
-header(fig, 4, 'Reglerne har klippet toppen af, men ikke flyttet gennemsnittet',
-       'Effekten af hver overtagelse på nettotransferforbruget, efter hvornår den skete.\nSort streg: gennemsnittet i hver regelperiode.')
+ax.axhline(0, color=MUTED, lw=.6, ls=(0, (2, 2))); ax.set_xlim(1989, 2025.5)
+ax.set_ylabel('Effekt i point'); ax.set_xlabel('Sæson for ejerskiftet')
+from matplotlib.lines import Line2D
+ax.legend(handles=[Line2D([], [], marker='o', ls='', color=cl, ms=6, label=t) for t, cl in TYPE.items()], loc='lower left',
+          bbox_to_anchor=(0, 1.0), ncol=3, frameon=False, fontsize=8.5, handletextpad=.2, columnspacing=1.6, borderaxespad=0.3)
+header(fig, 4, 'De største spring kom alle før reglerne',
+       'Effekten af hver overtagelse i point (100 = én gennemsnitlig klubs årlige indkøb), efter hvornår den skete.\nSorte vandrette streger: gennemsnittet i hver regelperiode. Stiplet linje: nul.')
 footer(fig)
 save(fig, 'figur4_over_tid')
 
@@ -154,7 +157,7 @@ ax.set_yticks(range(3), [f'{g}\n(n = {(res.ejertype == g).sum()})' for g in orde
 ax.set_ylim(2.5, -.7); ax.axvline(0, color=INK, lw=.8); ax.grid(axis='y', visible=False)
 ax.set_xlabel('Effekt, ' + ENHED.lower())
 header(fig, 5, 'De tre statsejede overtagelser ligger i toppen',
-       'Effekten af 68 overtagelser fordelt på ejertype. Hver prik er én overtagelse.')
+       'Effekten af 68 overtagelser fordelt på ejertype. PSG måles mod Ligue 1, et langt mindre marked,\nog trækker statsejernes gennemsnit op.')
 footer(fig, 'Sort streg: gennemsnit med 95 %-interval (bootstrap).')
 save(fig, 'figur5_ejertype')
 
@@ -210,7 +213,7 @@ ax.set_xticks(range(1992, 2026, 3), [f"{y % 100:02d}/{(y + 1) % 100:02d}" for y 
 ax.set_ylabel('Placering')
 fig.add_artist(R7((0.06, 0.725), 0.014, 0.022, transform=fig.transFigure, color=GREY, lw=0)); fig.text(0.08, 0.725, 'De seks klubber, der i dag udgør toppen: Man. United, Liverpool, Arsenal, Chelsea, Man. City, Tottenham', fontsize=8.3, color=MUTED)
 fig.add_artist(R7((0.06, 0.692), 0.014, 0.022, transform=fig.transFigure, color='#C8553D', lw=0)); fig.text(0.08, 0.692, 'Andre klubber', fontsize=8.3, color=MUTED)
-header(fig, 7, 'Siden 2003 har seks klubber haft 87 af 92 pladser i top 4',
+header(fig, 7, 'Siden 2003/04 har seks klubber opnået 87 af 92 pladser i top 4',
        'Top 4 i Premier League pr. sæson, 1992/93 til 2025/26. Chelsea og City er blandt de seks, fordi de\nkøbte sig ind efter deres ejerskifter i 2003 og 2008.')
 footer(fig)
 save(fig, 'figur7_top4_lukket')
